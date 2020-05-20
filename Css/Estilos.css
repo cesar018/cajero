@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding: 0;
+}
+header{
+    width: 520px;
+    height: 488px;
+    margin: 0 auto;
+    background-color: darkgrey;
+    border-radius: 30px;
+}
+.izquierda{
+    width: 94px;
+    height: 200px;
+    float: left;
+    margin: 0 auto;
+}
+.derecha{
+    width: 94px;
+    height: 200px;
+    float: right;
+    margin: 0 auto;
+}
+.botoncito{
+    width: 50px;
+    height: 25px;
+    background-color: black;
+    margin: 12px;
+    float: center;
+}
+#pantalla{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: rgb(241, 243, 104);
+    border: 10px solid rgb(82, 79, 79);
+    border-radius: 3px;
+}
+.primerasalida{
+    width: 95px;
+    height: 5px;
+    margin: 5px;
+    background-color: black;
+    border: 10px solid rgb(61, 60, 60);
+    border-radius: 5px;
+}
+.segundasalida{
+    width: 220px;
+    height: 5px;
+    margin: 5px;
+    background-color: black;
+    border: 10px solid rgb(61, 60, 60);
+    border-radius: 5px;
+}
+.sectordeabajo{
+    width: 240px;
+    height: 200px;
+    float: left;
+}
+.leftdown{
+    width: 120px;
+    height: 80px;
+    float: left;
+}
+.rightdown{
+    width: 120px;
+    height: 80px;
+    float: left;
+}
+h1{
+    font-size: 25px;
+    text-align: left;
+}
+h2{
+    font-size: 18px;
+    text-align: left;
+}
+.lacontra{
+    border: 2px solid orange;
+    margin: 5px;
+}
+.conjbotones{
+    width: 160px;
+    height: 150px;
+    float: left;
+}
+.boton1{
+    width: 40px;
+    height: 35px;
+    border: 2px solid rgb(82, 79, 79);
+    border-radius: 5px;
+    background-color: rgba(248, 223, 223, 0.856);
+    float: inline-start; 
+    margin: 5px;
+}
+.otracaja{
+    width: 90px;
+    height: 150px;
+    float: left;
+}
+.triangulo{
+    width: 0;
+    height: 0;
+    border-left: 20px solid #faf9f8;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    margin: 0 auto;
+}
+.triangulo2{
+    width: 0;
+    height: 0;
+    border-right: 20px solid #faf9f8;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    margin: 0 auto;
+}
+.cancel{
+    width: 85px;
+    height: 35px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 3px;
+}
+.clear{
+    width: 85px;
+    height: 35px;
+    background-color:orange;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 3px;
+}
+.ok{
+    width: 85px;
+    height: 35px;
+    background-color:rgb(23, 248, 23);
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 3px;
+}  
+.sinsentido{
+    width: 85px;
+    height: 35px;
+    background-color:rgb(59, 56, 56);
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 3px;
+} 
+h3{
+    font-size: 10px;
+    text-align: center;
+}
+h4{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+h5{
+    font-size: 15px;
+    text-align: left;
+    color: white;
+    margin: 15px;
+}
+h6{
+    font-size: 15px;
+    text-align: right;
+    color: white;
+    margin: 15px;
+}
