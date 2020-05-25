@@ -2,30 +2,50 @@
     margin:0;
     padding: 0;
 }
-header{
+
+#consola{
     width: 520px;
     height: 488px;
     margin: 0 auto;
     background-color: darkgrey;
     border-radius: 30px;
+    margin-top: 50px;
+}
+.caja1{
+    height: 239px;
+    width: 520px;
+}
+.caja2{
+    width: 339px;
+    height: 239px;
+    float: left;
+}
+.caja3{
+    height: 229px;
+    width: 251px;
+    float: left;
 }
 .izquierda{
-    width: 94px;
-    height: 200px;
-    float: left;
+    width: 80px;
+    height: 239px;
     margin: 0 auto;
+    float: left;
 }
 .derecha{
-    width: 94px;
-    height: 200px;
-    float: right;
+    width: 80px;
+    height: 239px;
     margin: 0 auto;
+    float: left;
+}
+p{
+    font-size: 10px;
+    text-align: 5px;
 }
 .botoncito{
     width: 50px;
     height: 25px;
     background-color: black;
-    margin: 12px;
+    margin: 10px;
     float: center;
 }
 #pantalla{
@@ -39,10 +59,11 @@ header{
 .primerasalida{
     width: 95px;
     height: 5px;
-    margin: 5px;
+    margin: 3px;
     background-color: black;
     border: 10px solid rgb(61, 60, 60);
     border-radius: 5px;
+    float: left
 }
 .segundasalida{
     width: 220px;
@@ -80,22 +101,26 @@ h2{
     margin: 5px;
 }
 .conjbotones{
-    width: 160px;
-    height: 150px;
+    width: 260px;
+    height: 240px;
     float: left;
 }
 .boton1{
-    width: 40px;
-    height: 35px;
+    width: 38px;
+    height: 32px;
     border: 2px solid rgb(82, 79, 79);
     border-radius: 5px;
     background-color: rgba(248, 223, 223, 0.856);
-    float: inline-start; 
-    margin: 5px;
+    float: left; 
+    margin-top: 11px;
+    margin-left: 11px;
+    font-weight: 800;
+    font-size: 12px;
+    margin: 7px;
 }
 .otracaja{
-    width: 90px;
-    height: 150px;
+    width: 250px;
+    height: 190px;
     float: left;
 }
 .triangulo{
@@ -113,6 +138,22 @@ h2{
     border-top: 8px solid transparent;
     border-bottom: 8px solid transparent;
     margin: 0 auto;
+}
+.letraspantalla{
+    font-size: 10px;
+    color: black;
+    font-family: cursive;
+}
+.letras-opciones{
+    font-size:10px;
+    color:rgb(85, 42, 11);
+    font-family: 'Black Ops One', cursive;
+}
+.letras-opciones2{
+    font-size:10px;
+    color:rgb(85, 42, 11);
+    font-family: 'Black Ops One', cursive;
+    margin: right;
 }
 .cancel{
     width: 85px;
