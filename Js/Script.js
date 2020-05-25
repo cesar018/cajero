@@ -35,6 +35,9 @@ function retirogo() {
 function limpiar() {
     document.getElementById("contra").value="";
 }
+function limpiar2() {
+    document.getElementById("monto").value="";
+}
 function retiro() {
     document.getElementById("pantalla2").style.display="none";
     document.getElementById("pantalla3").style.display="block";
@@ -48,6 +51,22 @@ function retiro3() {
     document.getElementById("pantalla5").style.display="block";
     document.getElementById("teclado1").style.display="none";
     document.getElementById("teclado2").style.display="block";
+}
+function continuar(){
+    document.getElementById("pantalla5").style.display="none";
+    document.getElementById("pantalla6").style.display="block";
+}
+function final() {
+    document.getElementById("pantalla6").style.display="none";
+    document.getElementById("pantalla7").style.display="block";
+}
+function salirmenu(){
+    document.getElementById("pantalla7").style.display="none";
+    document.getElementById("pantalla2").style.display="block";
+}
+function really(){
+    document.getElementById("pantalla6").style.display="none";
+    document.getElementById("pantalla5").style.display="block";
 }
 document.getElementById("n1").addEventListener("click",n1);
 function n1(){ 
